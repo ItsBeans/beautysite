@@ -5,6 +5,7 @@ import { Dialog, DialogPanel } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import Treatments from './Treatments';
 
+
 const navigation = [
   { name: 'About me', href: '#' },
   { name: 'Treatments', href: '#' },
@@ -20,7 +21,7 @@ export default function Quick() {
       <header className="absolute inset-x-0 top-0 z-50">
         <nav aria-label="Global" className="flex items-center justify-between p-6 lg:px-8">
           <div className="flex lg:flex-1">
-            <a href="#" className="-m-1.5 p-1.5">
+            <a href="/" className="-m-1.5 p-1.5">
               <span className="sr-only">Hello</span>
               <img
                 alt=""
@@ -40,8 +41,8 @@ export default function Quick() {
             </button>
           </div>
           <div className="hidden lg:flex lg:gap-x-12">
-              <a key="About me" href="" className="text-sm font-semibold leading-6 text-gray-900">
-                About me
+              <a key="About me" href="/about" className="text-sm font-semibold leading-6 text-gray-900">
+               About me  
               </a>
             
              <Treatments/>
@@ -77,15 +78,31 @@ export default function Quick() {
             <div className="mt-6 flow-root">
               <div className="-my-6 divide-y divide-gray-500/10">
                 <div className="space-y-2 py-6">
-                  {navigation.map((item) => (
-                    <a
-                      key={item.name}
-                      href={item.href}
-                      className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
-                    >
-                      {item.name}
+                <a href='/about' className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">
+                      About me
                     </a>
-                  ))}
+                    <a href='/personalised' className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">
+                      Personalised Facial
+                    </a>
+                    <a href='/quick' className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">
+                      Quick Glow Facial
+                    </a>
+                    <a href='/biorepeel' className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">
+                      BioRepeel
+                    </a>
+                    <a href='/microneedling' className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">
+                      Microneedling
+                    </a>
+                    <a href='/mesotherapy' className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">
+                      Mesotherapy
+                    </a>
+                    <a href='/skinboost' className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">
+                      Skin Booster
+                    </a>
+                    <a href='/dermaplanning' className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">
+                      Dermaplanning
+                    </a>
+    
                 </div>
                 <div className="py-6">
                   <a
@@ -118,7 +135,7 @@ export default function Quick() {
           
           <div className="text-center">
             <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
-              Rigoleta Beauty
+              Quick facial.
             </h1>
             <p className="mt-6 text-lg leading-8 text-gray-600">
               Beauty services such as facials and cleansing. Based in London.

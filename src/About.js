@@ -13,7 +13,7 @@ const navigation = [
 
 ]
 
-export default function BioRepeel() {
+export default function About() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   return (
@@ -41,8 +41,8 @@ export default function BioRepeel() {
             </button>
           </div>
           <div className="hidden lg:flex lg:gap-x-12">
-              <a key="About me" href="/about" className="text-sm font-semibold leading-6 text-gray-900">
-              About me 
+              <a key="About me" href="" className="text-sm font-semibold leading-6 text-gray-900">
+                About me
               </a>
             
              <Treatments/>
@@ -78,7 +78,8 @@ export default function BioRepeel() {
             <div className="mt-6 flow-root">
               <div className="-my-6 divide-y divide-gray-500/10">
                 <div className="space-y-2 py-6">
-                <a href='/about' className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">
+                  
+                    <a href='/about' className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">
                       About me
                     </a>
                     <a href='/personalised' className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">
@@ -103,6 +104,8 @@ export default function BioRepeel() {
                       Dermaplanning
                     </a>
     
+    
+                    
                 </div>
                 <div className="py-6">
                   <a
@@ -135,10 +138,10 @@ export default function BioRepeel() {
           
           <div className="text-center">
             <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
-              Bio Repeel
+              About me
             </h1>
             <p className="mt-6 text-lg leading-8 text-gray-600">
-              Blah blah blah
+              Beauty services such as facials and cleansing. Based in London.
             </p>
             
           </div>
