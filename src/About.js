@@ -23,7 +23,7 @@ export default function About() {
             </h1>
             <div class="grid grid-flow-row gap-5 content-center">
             <p className="mt-6 text-lg leading-8 text-gray-600">
-            NVQ Level 3 qualified, working since 2010. Based in London. Specialised in facials using a holistic approach which involve a facial massage. Using various product brands for treatments such as Neal’s Yard, Cell Fusion C and  Medik8. 
+            As an NVQ Level 3 qualified practitioner based in London, I specialize in holistic facials designed to promote relaxtion and well-being. My approach incorporates soothing facial massage techniques and a selection of premium products, including Neal's Yard, Cell Fusion C, and Medik8. I am dedicated to creating a personalized experience that nurtures both your skin and spirit.
 
             </p>
             
